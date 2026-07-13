@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TuLearn - Tutor or Learn</title>
+	<link rel="shortcut icon" href="./assets/banner.png" type="image/x-icon">
+	<!-- LINK CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	<nav id="navbar">
+		<div class="nav-toggle">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+
+		<div class="collapse-navbar">
+			<div class="logo">
+				<a href="#">
+					<img src="./assets/banner.png" alt="Logo" class="logo-image">
+					<span class="logo-text">
+						Tu<span class="logo-text-blue">Learn</span>
+					</span>
+				</a>
+			</div>
+
+			<div class="nav-menu">
+				<ul>
+					<li><a href="#">Course</a></li>
+					<li><a href="#">For Business</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+
+			<div class="nav-option">
+				<form action="" method="get" class="search-bar">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					<input type="text" placeholder="Search courses...">
+				</form>
+
+				<a href="#" class="login">
+					Log In
+				</a>
+
+				<a href="#" class="signup">
+					Sign Up
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- MAIN CONTENT -->
+	<main>
+		<section id="hero">
+			<div class="left-container">
+				<h1 class="title">
+					Learn Skills.
+					<br><span class="blue-title">Achieve More.</span>
+				</h1>
+				<p>TuLearn is a <span id="typed"></span> <br> for everyone, everywhere.</p>
+				<div class="link">
+					<a href="" class="explore-btn">
+						Explore Courses
+					</a>
+					<a href="" class="how-btn">
+						<i class="fa-solid fa-play"></i>
+						How It Works
+					</a>
+				</div>
+			</div>
+			<img src="./assets/hero-img.png" alt="https://storyset.com/education" class="hero-image">
+		</section>
+
+		<section id="about">
+			<div class="info">
+				<div class="icon">
+					<i class="fa-regular fa-clock"></i>
+				</div>
+				<div class="information">
+					<h3>Learn Anytime</h3>
+					<p>Access courses anytime, anywhere</p>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="icon">
+					<i class="fa-solid fa-user-tie"></i>
+				</div>
+				<div class="information">
+					<h3>Expert Instructors</h3>
+					<p>Learn from industry professionals</p>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="icon">
+					<i class="fa-solid fa-chart-line"></i>
+				</div>
+				<div class="information">
+					<h3>Track Progress</h3>
+					<p>Monitor your learning journey</p>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="icon">
+					<i class="fa-solid fa-award"></i>
+				</div>
+				<div class="information">
+					<h3>Get Certified</h3>
+					<p>Earn certificates to boost your career</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="categories">
+			<h2>Explore Top Categories</h2>
+			<a href="#" class="view-btn">
+				View All <i class="fa-solid fa-arrow-right"></i>
+			</a>
+			<div class="content-container">
+				<div class="card">
+					<img src="./assets/gif/Backend Icon.svg" alt="https://lottiefiles.com/">
+					<h3>Development</h3>
+					<p>120+ Courses</p>
+				</div>
+				<div class="card">
+					<img src="./assets/gif/Google Icons _ My Business.svg" alt="https://lottiefiles.com/">
+					<h3>Business</h3>
+					<p>80+ Courses</p>
+				</div>
+				<div class="card">
+					<img src="./assets/gif/Kaleidoscope Loading Animation.svg" alt="https://lottiefiles.com/">
+					<h3>Design</h3>
+					<p>70+ Courses</p>
+				</div>
+				<div class="card">
+					<img src="./assets/gif/Bullhorn and social media icons for marketing.svg" alt="https://lottiefiles.com/">
+					<h3>Marketing</h3>
+					<p>60+ Courses</p>
+				</div>
+				<div class="card">
+					<img src="./assets/gif/Financial charts and statistics on tab with up arrow.svg" alt="https://lottiefiles.com/">
+					<h3>Personal Growth</h3>
+					<p>50+ Courses</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="popular">
+			<h2>Popular Courses</h2>
+			<a href="#" class="view-btn">
+				View All <i class="fa-solid fa-arrow-right"></i>
+			</a>
+			<div class="content-container">
+				<div class="card">
+					<div class="top-card">
+						<div class="information">
+							<h3>Web Development Bootcamp</h3>
+							<p>Build modern website from scratch</p>
+						</div>
+						<div class="icon">
+							<i class="fa-solid fa-code"></i>
+						</div>
+					</div>
+					<div class="bottom-card">
+						<p>Beginner</p>
+						<div class="rating">
+							<span class="icon"><i class="fa-solid fa-star"></i></span>
+							4.8
+						</div>
+						<p>12.4K students</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="top-card">
+						<div class="information">
+							<h3>UI/UX Design Fundamentals</h3>
+							<p>Design beautiful and usable interfaces</p>
+						</div>
+						<div class="icon">
+							<i class="fa-solid fa-palette"></i>
+						</div>
+					</div>
+					<div class="bottom-card">
+						<p>Beginner</p>
+						<div class="rating">
+							<span class="icon"><i class="fa-solid fa-star"></i></span>
+							4.7
+						</div>
+						<p>8.6K students</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="top-card">
+						<div class="information">
+							<h3>Digital Marketing Masterclass</h3>
+							<p>Grow your brand and reach more costumers</p>
+						</div>
+						<div class="icon">
+							<i class="fa-solid fa-store"></i>
+						</div>
+					</div>
+					<div class="bottom-card">
+						<p>Intermadiate</p>
+						<div class="rating">
+							<span class="icon"><i class="fa-solid fa-star"></i></span>
+							4.6
+						</div>
+						<p>6.2K students</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="top-card">
+						<div class="information">
+							<h3>Data Science for Everyone</h3>
+							<p>Build modern website from scratch</p>
+						</div>
+						<div class="icon">
+							<i class="fa-solid fa-atom"></i>
+						</div>
+					</div>
+					<div class="bottom-card">
+						<p>Beginner</p>
+						<div class="rating">
+							<span class="icon"><i class="fa-solid fa-star"></i></span>
+							4.8
+						</div>
+						<p>5.1K students</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<section id="footer-about">
+			<div class="logo">
+				<img src="./assets/banner.png" alt="Logo" class="logo-image">
+				<span class="logo-text">
+					Tu<span class="logo-text-blue">Learn</span>
+				</span>
+			</div>
+			<p class="information">
+				Empowering learners to achieve their goals <br> through quality educations.
+			</p>
+		</section>
+
+		<section id="footer-copyright">
+			<p>
+				<i class="fa-regular fa-copyright"></i> 
+				2026 <span class="title">TuLearn</span>. All rights reserved.
+			</p>
+			<div class="social-media">
+				<a href="#" class="instagram">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="#" class="facebook">
+					<i class="fa-brands fa-square-facebook"></i>
+				</a>
+				<a href="#" class="linkedin">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+				<a href="#" class="github">
+					<i class="fa-brands fa-square-github"></i>
+				</a>
+				<a href="#" class="youtube">
+					<i class="fa-brands fa-youtube"></i>
+				</a>
+			</div>
+		</section>
+
+		<section id="footer-newsletter">
+			<h4>Newsletter</h4>
+			<p>Get the lastest updates and learning tips.</p>
+			<form action="" method="post">
+				<input type="email" name="" id="" placeholder="Your email">
+				<button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+			</form>
+		</section>
+	</footer>
+
+	<!-- TYPED JS CDN -->
+	<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+	<!-- LINK JS -->
+	<script src="script.js"></script>
+</body>
+
+</html>
