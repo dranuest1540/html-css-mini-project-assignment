@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+
+@theme {
+    /* FONTS */
+    --font-inter: "Inter", sans-serif;
+    --font-manrope: "Manrope", sans-serif;
+
+    /* COLOR */
+    --color-primary: rgba(0, 32, 77);
+    --color-secondary: rgba(1, 153, 240);
+    --color-secondary-800: rgba(1, 153, 240, 0.8);
+}
